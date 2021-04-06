@@ -12,9 +12,9 @@ namespace MemeViewer.Service
         private static string baseUrl = "https://api.imgflip.com/";
 
 
-        public static async Task<Meme> getMemeAsync(string action, string actionInput)
+        public static async Task<Meme> getMemeAsync()
         {
-            Meme singleMovie = new Meme();
+            Meme singleMeme = new Meme();
 
             string tmepUrl = baseUrl + "get_memes";
 
@@ -37,11 +37,11 @@ namespace MemeViewer.Service
                     var MemeResponse = Res.Content.ReadAsStringAsync().Result;
 
                     //Deserializing the response recieved from web api and storing into the Employee list  
-                    singleMovie = JsonConvert.DeserializeObject<Meme>(MemeResponse);
+                    singleMeme = JsonConvert.DeserializeObject<Meme>(MemeResponse);
 
                 }
 
-                return singleMovie;
+                return singleMeme;
             }
         }
     }

@@ -1,4 +1,5 @@
 ﻿using MemeViewer.Models;
+using MemeViewer.Service;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using System;
@@ -18,8 +19,12 @@ namespace MemeViewer.Controllers
             _logger = logger;
         }
 
-        public IActionResult Index()
+        public async IActionResult Index()
         {
+            //ViewBag.Message = ApiService.getMemeAsync()[1].;
+
+            return View(await ApiService.getMemeAsync());
+
             return View();
         }
 

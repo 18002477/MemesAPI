@@ -38,3 +38,4 @@ C:\Users\19013083\source\repos\MemeViewer\obj\Debug\net5.0\ref\MemeViewer.dll
 C:\Users\19013083\source\repos\MemeViewer\obj\Debug\net5.0\MemeViewer.pdb
 C:\Users\19013083\source\repos\MemeViewer\obj\Debug\net5.0\MemeViewer.genruntimeconfig.cache
 C:\Users\19013083\source\repos\MemeViewer\obj\Debug\net5.0\MemeViewer.csproj.CopyComplete
+C:\Users\19013083\source\repos\MemeViewer\bin\Debug\net5.0\Newtonsoft.Json.dll
