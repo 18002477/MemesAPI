@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "gbY2AsBBDmo8fz6tZ0P1MaDoVaQ32wpKp449znpCnP/WL7Xsw0Uwz9wkZW2Go9QiKIuOsFDjEQYsOxTkibGLEg==",
+  "dgSpecHash": "lm2ALTdKhjKXhCfg3xIxtN6d8WGT5UWyDETCQQQ/xw3sHBOTQjAdVC45AMCy9cvLd+jUP7ShdFqcAeTnfVpFJA==",
   "success": true,
   "projectFilePath": "C:\\Users\\19013083\\source\\repos\\MemeViewer\\MemeViewer.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\19013083\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
   "logs": []
 }

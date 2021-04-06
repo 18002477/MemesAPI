@@ -7,5 +7,6 @@ namespace MemeViewer.Models
 {
     public class Data
     {
+        public List<Meme> memes { get; set; }
     }
 }
