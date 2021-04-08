@@ -19,11 +19,11 @@ namespace MemeViewer.Controllers
             _logger = logger;
         }
 
-        public async IActionResult Index()
+        public IActionResult Index()
         {
             //ViewBag.Message = ApiService.getMemeAsync()[1].;
 
-            return View(await ApiService.getMemeAsync());
+            //return View(await ApiService.getMemeAsync());
 
             return View();
         }
@@ -37,6 +37,11 @@ namespace MemeViewer.Controllers
         public IActionResult Error()
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+        }
+
+        public async Task<IActionResult> MemeList()
+        {
+            return View(await ApiService.getMemeAsync());
         }
     }
 }

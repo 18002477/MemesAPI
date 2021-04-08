@@ -7473,11 +7473,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\19013083\\source\\repos\\MemeViewer\\MemeViewer.csproj",
+      "projectUniqueName": "C:\\Users\\19013083\\Documents\\Repo\\miniMemeViewer\\MemeViewer.csproj",
       "projectName": "MemeViewer",
-      "projectPath": "C:\\Users\\19013083\\source\\repos\\MemeViewer\\MemeViewer.csproj",
+      "projectPath": "C:\\Users\\19013083\\Documents\\Repo\\miniMemeViewer\\MemeViewer.csproj",
       "packagesPath": "C:\\Users\\19013083\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\19013083\\source\\repos\\MemeViewer\\obj\\",
+      "outputPath": "C:\\Users\\19013083\\Documents\\Repo\\miniMemeViewer\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\19013083\\AppData\\Roaming\\NuGet\\NuGet.Config",
