@@ -1,2 +1,2 @@
-# miniMemeViewer
-Get memes from api
+# MemesAPI
+Getting meme image from api
